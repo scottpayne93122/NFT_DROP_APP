@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body, 
+html {
+    background-color: rgb(45, 85, 87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.header{
+    width: "100%";
+    background-color: rgb(45, 87, 78);
+    color:cornsilk;
+    padding: 10px 25px;
+}
+
+.content{
+    padding: 25px;
+    color:cornsilk;
+
+}
+
+.dropContainer{
+    display: flex;
+    width: "100%";
+    background-color: rgb(40, 70, 71);
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 50px;
+
+}
+
+.dropText{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.dropImage{
+    width: 200px;
+    border-radius: 25px;
+
+    
+}
+
+.form-box{
+    min-width: 100%;
+    
+    
+    /* border: 1px solid red; */
+    margin: 0vw;
+    padding: 75px;
+    position:relative;
+}
+
+.form-box h5{
+    font-size: 35px ;
+    text-align: center;
+    color: white;
+    margin: 0 0 .5vh 0;
+}
+
+.form-box input{
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .3vw 0 ;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+.button{
+    
+    
+    width: 100%;
+    margin-block: 50px;
+    height: 3rem;
+    color: white;
+    background-color: rgb(71, 131, 133);
+    border: 1;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 25px;
+    
+    
+}
+
+.introText{
+    padding: 25px;
+    text-align: center;
+    
+}
+
